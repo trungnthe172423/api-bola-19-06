@@ -4,7 +4,7 @@ services:
     build: .
     ports:
       - "8080:80"
-    volumes:
-      - ./app:/app
+    #volumes:
+    #  - ./app:/app
     environment:
       - TZ=Asia/Ho_Chi_Minh
